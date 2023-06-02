@@ -25,7 +25,7 @@ En este [enlace](https://www.kaggle.com/datasets/bourdier/all-tv-series-details-
 
 1. Mete todas tus funciones de limpieza que realices sobre las columnas en un archivo `cleaning.py` y luego importa las funciones en el notebook.
 2. Realiza un análisis exploratorio de los datos dentro del ``main.ipynb``.
-3. Realiza un análisis de los datos faltantes y / 0 incorrectos y decide qué hacer con ellos, NaN, 0, etc...
+3. Realiza un análisis de los datos faltantes y / 0 incorrectos y decide qué hacer con ellos, NaN, registros duplicados, etc...
 4. Todas las funciones de limpieza deberán estar en el archivo `cleaning.py` y ser importadas en el notebook❗❗❗
 5. Una vez tengas el dataset limpio, deberás exportarlo a un archivo `.csv` con el nombre `clean_data.csv` y subirlo a tu repositorio.
 6. En el notebook deberás responder a las preguntas de la sección **Preguntas**.
