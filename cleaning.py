@@ -30,3 +30,11 @@ def extraer_nombres(nombres_str):
         return 'Desconocido'
     else:
         return ', '.join(nombres)
+def genero_mas_repetido(lista):
+    generos = {}
+    for genero in lista:
+        if genero in generos:
+            generos[genero] += 1
+        else:
+            generos[genero] = 1
+    return max(generos, key=generos.get)
