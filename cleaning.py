@@ -13,18 +13,6 @@ def limpiar_creador(row):
             return "Sin creador especificado"
     except:
         return "Sin creador especificado"
-
-def limpiar(row, ):
-    try:
-        cadena = row[col]
-        lista_creadores = json.loads(cadena)
-        nombres_creadores = [diccio["name"] for diccio in lista_creadores]
-        if nombres_creadores:
-            return ", ".join(nombres_creadores)
-        else:
-            return "Sin creador especificado"
-    except:
-        return "XXXX"
     
 def limpiar_genero(row):
     try:
